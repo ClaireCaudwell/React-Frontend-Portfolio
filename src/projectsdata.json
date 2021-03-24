@@ -1,0 +1,188 @@
+[
+    {
+        "projectName": "DIGITAL ORGANISER",
+        "Link": "https://claires-digital-organiser.netlify.app/",
+        "img": "./assets/digital-organiser.png",
+        "text": "A fullstack project where I built both the front and backend to create a digital organiser. The user can sign up/login, create their own schedule and add notes and implemented a toggle input so the user can toggle between two different colour schemes",
+        "tags": [
+            "REACT.JS",
+            "REDUX",
+            "REACT ROUTER",
+            "EXPRESS",
+            "NODE.JS",
+            "MONGOOSE",
+            "STYLED COMPONENTS"
+        ]
+    },
+    {
+        "projectName": "TODO LIST",
+        "Link": "https://epic-blackwell-4f00c6.netlify.app/",
+        "img": "./assets/todo-list.png",
+        "text": "A useable todo app that allows for the user to add, list and remove to do's. Created in React and using Redux global store to store the todo's. As well as using reducers and actions to select data from and dispatch data to the Redux store",
+        "tags": [
+            "REACT.JS",
+            "REDUX",
+            "ACTIONS",
+            "REDUCERS",
+            "STYLED COMPONENTS"
+        ]
+    },
+    {
+        "projectName": "HAPPY THOUGHTS",
+        "Link": "https://silly-wing-fdef06.netlify.app/",
+        "img": "./assets/happy-thoughts.png",
+        "text": "Created a twitter like site where users can post and read happy thoughts. Using React, useState and useEffect to get data from and post to the api and making it visible in the DOM",
+        "tags": [
+            "REACT.JS",
+            "CSS 3",
+            "API'S",
+            "USESTATE"
+        ]
+    },
+    {
+        "projectName": "MOVIE RELEASES",
+        "Link": "https://wonderful-wilson-448fcd.netlify.app/",
+        "img": "./assets/happy-thoughts.png",
+        "text": "Created a mulit-page application of the current top 20 Ryan Gosling films using the The Movie database api. Used React navigation to create the different pages that shows the film detail",
+        "tags": [
+            "REACT.JS",
+            "NAVIGATION",
+            "API'S",
+            "USESTATE"
+        ]
+    },
+    {
+        "projectName": "PROJECT AUTH",
+        "Link": "https://upbeat-edison-ad175c.netlify.app/",
+        "img": "./assets/auth.png",
+        "text": "In a team we created both a frontend and backend. The frontend consists of a sign up or login page and the inputted data is sent to the backend to authenticate the user so they can then access their 'secret info'. Built using React.js and Redux for the frontend and Node.js, Mongoose and MongoDB for the backend",
+        "tags": [
+            "REACT.JS",
+            "NODE.JS",
+            "EXPRESS",
+            "MONGODB",
+            "MONGOOSE",
+            "AUTHENTICATION",
+            "RESTful API",
+            "MOB PROGRAMMING"
+        ]
+    },
+    {
+        "projectName": "LABRYNTH",
+        "Link": "https://ecstatic-wing-fa166d.netlify.app/",
+        "img": "./assets/labrynth.png",
+        "text": "Pair programming project where we built an interactive text based game. Accessing data from two API endpoints, storing data returned in the Redux store and dealing with fetches asynchronous nature by implementing thunks",
+        "tags": [
+            "REACT.JS",
+            "REDUX",
+            "API'S",
+            "THUNKS",
+            "MONGOOSE",
+            "PAIR PROGRAMMING"
+        ]
+    },
+    {
+        "projectName": "BUILD A SURVEY",
+        "Link": "https://flamboyant-poitras-c5efb2.netlify.app/",
+        "img": "./assets/project-survey.png",
+        "text": "Built a survey for the Beer Craft Co. in React, practising using React and the useState hook. The survey needed to included radio buttons and select input and meet basic accessibility requirements",
+        "tags": [
+            "REACT.JS",
+            "PROPS",
+            "USESTATE",
+            "USEREF",
+            "ACCESSIBILITY"
+        ]
+    },    
+    {
+        "projectName": "REDUX QUIZ",
+        "Link": "https://vibrant-kirch-914d32.netlify.app/",
+        "img": "./assets/redux-quiz.png",
+        "text": "In a team we built an quiz app using React and Redux. We used the state to render the quiz questions one at a time. User clicks to see if the answer is correct or not before moving on to the next question. After answering all five questions a summary of the answers is shown and the chance to do the quiz again",
+        "tags": [
+            "REACT.JS",
+            "REDUX",
+            "STATE MANAGMENT",
+            "MOB PROGRAMMING"
+        ]
+    },
+    {
+        "projectName": "REACT NATIVE APP",
+        "Link": "https://snack.expo.io/@clairecaudwell/github.com-clairecaudwell-project-react-native-app",
+        "img": "./assets/react-native.png",
+        "text": "Spent the week building and developing a react native project of positive quotes where the user can click on different symbols to show a different quote",
+        "tags": [
+            "REACT NATIVE",
+            "NAVIGATION",
+            "STYLED-COMPONENTS",
+            "APP DEVELOPMENT"
+        ]
+    },
+    {
+        "projectName": "MUSIC RELEASES",
+        "Link": "https://objective-wing-b8f314.netlify.app/",
+        "img": "./assets/music-releases.png",
+        "text": "A pair programming project where we created a music release site in React using components and props. Accessing the data, fetched from the Spotify API, stored in the data.json",
+        "tags": [
+            "REACT.JS",
+            "PROPS",
+            "USESTATE",
+            "API'S",
+            "PAIR PROGRAMMING"
+        ]
+    },
+    {
+        "projectName": "WEATHER APP",
+        "Link": "https://hardcore-keller-653d90.netlify.app/",
+        "img": "./assets/weather-app.png",
+        "text": "A responsive weather app created using vanilla javascript fetching the data from the open weather API. Accessing specific data made visible in the DOM",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "GET REQUEST",
+            "ASYNCHRONICITY",
+            "API'S"
+        ]
+    },
+    {
+        "projectName": "FOOD SEARCH SITE",
+        "Link": "https://elastic-blackwell-9c9f18.netlify.app/",
+        "img": "./assets/food-search-site.png",
+        "text": "Project food website that was created during the Technigo Bootcamp collaboration day. We were tasked, as a team, to create a food website where we collected specific data from the Zomato API",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "ONCLICK EVENT",
+            "MOB PROGRAMMING"
+        ]
+    },
+    {
+        "projectName": "CLUEDO GAME",
+        "Link": "https://condescending-neumann-78ee0c.netlify.app/",
+        "img": "./assets/cluedo.png",
+        "text": "A fun project where we were tasked to create a Cluedo Mystery picker that randomly chooses a killer, weapon and room. These are revealed with an onClick event to reveal the mystery. Added a button that allows for the user to play again and also animations that run to show that the cards are loading",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "ONCLICK EVENT",
+            "ANIMATION"
+        ]
+    },
+    {
+        "projectName": "PIZZA BOT",
+        "Link": "https://mystifying-lovelace-84f38f.netlify.app/",
+        "img": "./assets/pizza-bot.png",
+        "text": "A fun project where we were tasked to create a Cluedo Mystery picker that randomly chooses a killer, weapon and room. These are revealed with an onClick event to reveal the mystery. Added a button that allows for the user to play again and also animations that run to show that the cards are loading",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "PAIR PROGRAMMING",
+            "CONDITIONAL RENDERING"
+        ]
+    }
+
+]
