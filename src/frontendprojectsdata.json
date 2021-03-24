@@ -183,6 +183,32 @@
             "PAIR PROGRAMMING",
             "CONDITIONAL RENDERING"
         ]
+    },
+    {
+        "projectName": "BUSINESS SITE",
+        "Link": "https://nifty-beaver-9130a1.netlify.app/",
+        "img": "./assets/business-site.png",
+        "text": "Built a business site using HTML 5, CSS 3 and a little JavaScript ES6 where we had to have a hero image, form and accordion which was collapsable using CSS",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "RESPONSIVE",
+            "INPUT"
+        ]
+    },
+    {
+        "projectName": "NEWS SITE",
+        "Link": "https://condescending-ptolemy-592b72.netlify.app/",
+        "img": "./assets/news-site.png",
+        "text": "First Technigo project where we were tasked to build a news site using HMTL 5 & CSS 3. Had to be responsive and cross browser compatible",
+        "tags": [
+            "HTML5",
+            "CSS3",
+            "JAVASCRIPT ES6",
+            "RESPONSIVE",
+            "CROSS BROWSER",
+            "FLEXBOX"
+        ]
     }
-
 ]
