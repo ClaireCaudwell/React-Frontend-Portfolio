@@ -8,7 +8,7 @@ export const Container = styled.section`
     justify-content: center;
     padding: 30px 0px;
     background: rgb(244, 244, 244);
-    &:last-child{
+    &.backend{
         background: rgb(255, 255, 255);
     }
 `;

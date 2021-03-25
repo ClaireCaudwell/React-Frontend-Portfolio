@@ -7,10 +7,10 @@ import { FrontendProject } from "./FrontendProject";
 import { BackendProject } from "./BackendProject";
 
 import { Container } from "../styled-components/AboutStyling";
-import { MainTitle } from "../styled-components/SkillsStyling";
-import { ProjectCardContainer, LoadMoreButton } from "../styled-components/ProjectsStyling";
+import { MainTitle } from "../styled-components/TechSkills";
+import { ProjectCardContainer, LoadMoreButton } from "../styled-components/ProjectList";
 
-export const FrontendProjectList = () => {
+export const ProjectList = () => {
 
     const [ visibleProjects, setVisibleProjects ] = useState(4);
 
@@ -27,9 +27,11 @@ export const FrontendProjectList = () => {
                             <FrontendProject key={frontendProject.id} frontendProject={frontendProject} />
                         ))}
                     </ProjectCardContainer>
-                    <LoadMoreButton onClick={handleClick}>Load more projects</LoadMoreButton>
+                    <LoadMoreButton onClick={handleClick}>
+                    {visibleProjects === 16 ? "All projects loaded" : "Load more projects"}
+                    </LoadMoreButton>
             </Container>
-            <Container>
+            <Container className="backend">
                 <MainTitle>BACKEND PROJECTS</MainTitle>
                 <ProjectCardContainer>
                     {BackendProjectData.map(backendProject => (

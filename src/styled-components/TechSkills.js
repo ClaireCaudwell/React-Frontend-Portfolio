@@ -35,5 +35,8 @@ export const TechText = styled.p`
 export const TextSpan = styled.span`
     color: rgb(255, 179, 26);
     font-weight: 700;
-    line-height: 2; 
+    line-height: 2;
+    &.welcome-title {
+        color: #000;
+    }
 `;

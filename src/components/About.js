@@ -7,13 +7,15 @@ import {
     LineShape 
 } from "../styled-components/AboutStyling";
 
+import { TextSpan } from "../styled-components/TechSkills";
+
 export const About = () => {
     return (
         <Container>
             <AboutText>
                 <LineShape></LineShape>
                 <CircleShape></CircleShape>
-                Hi! I’m Claire, a frontend developer who has a background in design. As a frontend developer I have a passion for building applications and websites from scratch and using my creative skills to find solutions to problems.
+                <TextSpan className="welcome-title">Hi I’m Claire!</TextSpan> A frontend developer who has a background in design. As a frontend developer I have a passion for building applications and websites from scratch and using my creative skills to find solutions to problems.
 
                 I also enjoy using my design skills when thinking about the UI of the application I’m building and how the overall user experience will be for the user.
 

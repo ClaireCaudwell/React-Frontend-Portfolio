@@ -1,0 +1,39 @@
+
+[
+    {
+        "title": "TEAM",
+        "id": 1,
+        "skills": [
+            "Collaborating",
+            "Communication",
+            "Pair & mob programming",
+            "Stand up's, demo's and retros"
+        ]
+    },
+    {
+        "title": "TOOLBOX",
+        "id": 2,
+        "skills": [
+            "Slack",
+            "GitHub",
+            "VSC",
+            "Command line (terminal)",
+            "Postman",
+            "Adobe Photoshop & Illustrator",
+            "Figma & Miro"
+        ]
+    },
+    {
+        "title": "OTHER",
+        "id": 3,
+        "skills": [
+            "Creative problem solving",
+            "Eye for detail",
+            "Organisational skills",
+            "Idea generation",
+            "Design development",
+            "Pattern design",
+            "Graphic design"
+        ]
+    }
+]

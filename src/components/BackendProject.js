@@ -8,8 +8,7 @@ import {
     Arrow,
     TagsListContainter,
     TagItem,
-} from "../styled-components/ProjectsStyling";
-
+} from "../styled-components/ProjectList";
 
 export const BackendProject = ({ backendProject }) => {
     return (
@@ -18,7 +17,7 @@ export const BackendProject = ({ backendProject }) => {
                 href={backendProject.link} 
                 target="_blank" 
                 rel="noopener noreferrer">
-                <ProjectText>
+                <ProjectText className="backend">
                     <ProjectTitle>{backendProject.projectName}: </ProjectTitle>
                     {backendProject.text}
                     <Arrow>&#707;&#707;</Arrow>

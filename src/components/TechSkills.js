@@ -6,7 +6,7 @@ import {
     InnerContainer,
     TechText,
     TextSpan
-} from "../styled-components/SkillsStyling";
+} from "../styled-components/TechSkills";
 
 export const TechSkills = () => {
     return(

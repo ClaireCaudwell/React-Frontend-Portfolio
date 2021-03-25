@@ -12,7 +12,7 @@ import {
     Arrow,
     TagsListContainter,
     TagItem,
-} from "../styled-components/ProjectsStyling";
+} from "../styled-components/ProjectList";
 
 
 export const FrontendProject = ({ frontendProject }) => {

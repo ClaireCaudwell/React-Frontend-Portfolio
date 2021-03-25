@@ -1,11 +1,10 @@
 import styled from "styled-components/macro";
-import { TextSpan } from "./SkillsStyling";
+import { TextSpan } from "./TechSkills";
 
 export const ProjectCardContainer = styled.div`
     display: flex;
     flex-direction: column;
     width: 80%;
-    margin: 20px;
     margin-bottom: 0px;
 `;
 
@@ -82,6 +81,9 @@ export const ProjectText = styled.p`
         background-color: #e6e6e6;
         transition: 0.3s;
     }
+    &.backend:hover{        
+        background-color: #f2f2f2;       
+    }
 `;
 
 export const Arrow = styled(TextSpan)`
@@ -95,7 +97,6 @@ export const TagsListContainter = styled.ul`
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-space-around;
     width: 100%;
     padding-left: 0;
     margin-top: 0;

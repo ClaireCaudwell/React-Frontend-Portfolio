@@ -4,7 +4,8 @@ import styled from "styled-components";
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
 import { TechSkills } from "./components/TechSkills";
-import { FrontendProjectList } from "./components/FrontendProjectList";
+import { ProjectList } from "./components/ProjectList";
+import { OtherSkills } from "./components/OtherSkills";
 
 
 export const App = () => {
@@ -14,7 +15,8 @@ export const App = () => {
       <MainContainer>
         <About />
         <TechSkills />
-        <FrontendProjectList />
+        <ProjectList />
+        <OtherSkills />
       </MainContainer>
     </>
   );
