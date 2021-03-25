@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from "styled-components/macro";
 import leaves from "../assets/leaves-background.jpg";
 
 export const HeaderContainer = styled.header`

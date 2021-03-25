@@ -1,7 +1,8 @@
 [
     {
+        "id": 1,
         "projectName": "MongoDB API",
-        "Link": "https://github.com/ClaireCaudwell/project-mongo-api",
+        "link": "https://github.com/ClaireCaudwell/project-mongo-api",
         "text": "Created a database using MongoDB, populated the database using Mongoose library and the model method. Created two RESTful API endpoints that get specific data store in the database using Mongoose functions",
         "tags": [
             "NODE.JS",
@@ -13,8 +14,9 @@
         ]
     },
     {
+        "id": 2,
         "projectName": "EXPRESS API",
-        "Link": "https://github.com/ClaireCaudwell/project-express-api",
+        "link": "https://github.com/ClaireCaudwell/project-express-api",
         "text": "Created my first API with two different endpoints which include query parameters using express and RESTful architectural style",
         "tags": [
             "NODE.JS",

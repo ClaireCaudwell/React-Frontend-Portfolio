@@ -1,4 +1,4 @@
-import styled from "styled-components"; 
+import styled from "styled-components/macro"; 
 
 export const Container = styled.section`
     width: 100%;
@@ -8,6 +8,9 @@ export const Container = styled.section`
     justify-content: center;
     padding: 30px 0px;
     background: rgb(244, 244, 244);
+    &:last-child{
+        background: rgb(255, 255, 255);
+    }
 `;
 
 export const LineShape = styled.section`
