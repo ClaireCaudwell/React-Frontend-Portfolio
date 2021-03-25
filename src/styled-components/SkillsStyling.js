@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import { AboutContainer } from "./AboutStyling";
+import { Container } from "./AboutStyling";
 
-export const SkillsContainer = styled(AboutContainer)`
+export const SkillsContainer = styled(Container)`
     background: rgb(255, 255, 255);
 `;
 

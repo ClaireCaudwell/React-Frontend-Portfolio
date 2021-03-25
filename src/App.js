@@ -4,6 +4,8 @@ import styled from "styled-components";
 import { Header } from "./components/Header.js";
 import { About } from "./components/About.js";
 import { TechSkills } from "./components/TechSkills";
+import { FrontendProjectList } from "./components/FrontendProjectList";
+
 
 export const App = () => {
   return (
@@ -12,6 +14,7 @@ export const App = () => {
       <MainContainer>
         <About />
         <TechSkills />
+        <FrontendProjectList />
       </MainContainer>
     </>
   );

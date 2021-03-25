@@ -1,7 +1,7 @@
 import React from "react";
 
 import { 
-    AboutContainer, 
+    Container, 
     AboutText, 
     CircleShape, 
     LineShape 
@@ -9,7 +9,7 @@ import {
 
 export const About = () => {
     return (
-        <AboutContainer>
+        <Container>
             <AboutText>
                 <LineShape></LineShape>
                 <CircleShape></CircleShape>
@@ -19,6 +19,6 @@ export const About = () => {
 
                 To me working together in a team is an integral part of working as a frontend developer, as together we can find and share solutions and be proud of what we’ve built.
             </AboutText>
-        </AboutContainer>
+        </Container>
     );
 };
