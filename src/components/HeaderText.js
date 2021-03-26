@@ -8,7 +8,7 @@ import {
     ProfileImage,
     NameTitle,
     DeveloperTitle
-} from "../styled-components/HeaderStyling";
+} from "../styled-components/Header";
 
 export const HeaderText = () => {
     return (

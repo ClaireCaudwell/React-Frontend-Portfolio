@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "link": "https://clairecaudwell-art.blogspot.com/2021/02/technigo-bootcamp-final-project-idea-to.html", 
+        "img": "/digital-organiser.png",
+        "alt": "Image of a my digital organiser project. Link to article",
+        "date": "FEB 2021",
+        "title": "TECHNIGO BOOTCAMP: FINAL PROJECT IDEA TO FNISHED PRODUCT 💻",
+        "text": "Last week was the final week and graduation of the Technigo bootcamp 🎉 and for the last four weeks of the bootcamp I've been building my final project, a Digital organiser 📆"
+    },
+    {
+        "id": 2,
+        "link": "https://clairecaudwell-art.blogspot.com/2021/01/my-top-tips-to-anyone-considering.html", 
+        "img": "/journey-is-on.jpg",
+        "alt": "Image of a sign saying journey is on. Link to article",
+        "date": "JAN 2021",
+        "title": "TIPS IF YOU'RE CONSIDERING BECOMING A DEVELOPER",
+        "text": "I’m nearing the end of the boot camp (only 4 weeks left! 😢) and I've learnt a lot about becoming a frontend developer. Here are a few tips to anyone who’s considering becoming a frontend developer or who's starting out on their journey."
+    },
+    {
+        "id": 3,
+        "link": "https://clairecaudwell-art.blogspot.com/2020/11/frontend-journey-halfway-through-boot.html", 
+        "img": "/cup-computer.jpg",
+        "alt": "Image of computer and cup. Link to article",
+        "date": "NOV 2020",
+        "title": "HALF WAY THROUGH THE BOOTCAMP",
+        "text": "Let's have a cup of tea ☕, catch up and I'll tell you what I've learnt so far now that I'm halfway through the Technigo boot camp journey."
+    }
+    ,
+    {
+        "id": 4,
+        "link": "https://clairecaudwell-art.blogspot.com/2020/11/my-path-into-frontend-development.html", 
+        "img": "/computer-code.png",
+        "alt": "Image of a desk with a computer, a cup of coffee and some post-it notes scrumpled up. Link to article",
+        "date": "NOV 2020",
+        "title": "MY PATH INTO FRONTEND DEVELOPMENT",
+        "text": "If you would’ve said to me this time last year that I’d be studying to become a frontend developer, I wouldn’t have believed you. I would’ve said that it’s a career for people who are really good at."
+    }
+]

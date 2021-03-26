@@ -9,12 +9,14 @@ import {
     SocialMediaContainer,
     IconContainer,
     IconImage
-} from "../styled-components/HeaderStyling";
+} from "../styled-components/Header";
 
 
-export const SocialMediaIcons = () => {
+export const SocialMediaIcons = ({ header }) => {
     return(
-        <SocialMediaContainer>
+        <SocialMediaContainer 
+            className={!header && "footer-sm-icons"}
+        >
             <IconContainer href="mailto:clairecaudwell@gmail.com" target="_blank" rel="noopener noreferrer">
                 <IconImage src={email} alt="email icon" />
             </IconContainer>            

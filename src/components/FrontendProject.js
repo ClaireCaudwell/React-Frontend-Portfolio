@@ -27,7 +27,7 @@ export const FrontendProject = ({ frontendProject }) => {
                         <ProjectImageTitle>{frontendProject.projectName}</ProjectImageTitle>
                         <ProjectImage 
                             src={require("../assets" +frontendProject.img)} 
-                            alt={frontendProject.projectName}
+                            alt={frontendProject.alt}
                         />
                     </ProjectImageContainer>
                     <ProjectText>

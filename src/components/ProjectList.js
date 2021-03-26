@@ -6,7 +6,7 @@ import BackendProjectData from "../data/backendprojectsdata.json";
 import { FrontendProject } from "./FrontendProject";
 import { BackendProject } from "./BackendProject";
 
-import { Container } from "../styled-components/AboutStyling";
+import { Container } from "../styled-components/About";
 import { MainTitle } from "../styled-components/TechSkills";
 import { ProjectCardContainer, LoadMoreButton } from "../styled-components/ProjectList";
 

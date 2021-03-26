@@ -6,7 +6,8 @@ import { About } from "./components/About.js";
 import { TechSkills } from "./components/TechSkills";
 import { ProjectList } from "./components/ProjectList";
 import { OtherSkills } from "./components/OtherSkills";
-
+import { Articles } from "./components/Articles";
+import { Footer } from "./components/Footer";
 
 export const App = () => {
   return (
@@ -17,6 +18,8 @@ export const App = () => {
         <TechSkills />
         <ProjectList />
         <OtherSkills />
+        <Articles />
+        <Footer />
       </MainContainer>
     </>
   );

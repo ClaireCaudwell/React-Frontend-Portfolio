@@ -5,7 +5,7 @@ import {
     AboutText, 
     CircleShape, 
     LineShape 
-} from "../styled-components/AboutStyling";
+} from "../styled-components/About";
 
 import { TextSpan } from "../styled-components/TechSkills";
 

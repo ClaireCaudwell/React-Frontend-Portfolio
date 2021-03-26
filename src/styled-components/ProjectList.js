@@ -12,6 +12,9 @@ export const ProjectCard = styled.div`
     display: flex;
     flex-direction: column;
     margin: 10px 0px;
+    &.backend{
+        margin-top: 0;
+    }
 `;
 
 export const ProjectLink = styled.a`
@@ -61,16 +64,17 @@ export const ProjectImage = styled.img`
     object-fit: cover; 
 `;
 
-export const ProjectTitle = styled.span`
+export const ProjectTitle = styled.h4`
     font-weight: 700;
     margin: 0 5px 0 0;
     color: #ffb31a;
     display: inline;
+    font-family: 'Roboto', sans-serif;
 `;
 
 export const ProjectText = styled.p`
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     text-align: justify;
     font-weight: 400;
     color: rgb(0, 0, 0);
@@ -81,8 +85,12 @@ export const ProjectText = styled.p`
         background-color: #e6e6e6;
         transition: 0.3s;
     }
+    &.backend{
+        margin-top: 0;
+    }
     &.backend:hover{        
-        background-color: #f2f2f2;       
+        background-color: #f2f2f2;
+        transition: 0.3s;       
     }
 `;
 
@@ -124,6 +132,7 @@ export const LoadMoreButton = styled.button`
     color: #000;
     transition: 0.3s;
     outline: none;
+    margin: 15px 0;
     &:hover{
         cursor: pointer;
         background-color: #ffc34d;

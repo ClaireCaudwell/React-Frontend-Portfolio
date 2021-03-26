@@ -21,6 +21,10 @@ export const SocialMediaContainer = styled.div`
     display: flex;
     align-self: flex-end;
     margin: 40px 10px 20px 10px;
+    &.footer-sm-icons{
+        margin: 10px;
+        align-self: center;
+    }
 `;
 
 export const IconContainer = styled.a`

@@ -12,11 +12,12 @@ import {
 
 export const BackendProject = ({ backendProject }) => {
     return (
-        <ProjectCard>
+        <ProjectCard className="backend">
             <ProjectLink 
                 href={backendProject.link} 
                 target="_blank" 
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+            >
                 <ProjectText className="backend">
                     <ProjectTitle>{backendProject.projectName}: </ProjectTitle>
                     {backendProject.text}

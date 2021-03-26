@@ -12,7 +12,7 @@ export const OtherSkillsContainer = styled(SkillsContainer)`
 
 export const InnerSkillsContainer = styled(InnerContainer)`
     padding: 10px;
-    font-size: 18px;
+    font-size: 15px;
     background-color: #fff;
     margin-bottom: 10px;   
 `;
@@ -23,6 +23,7 @@ export const SkillsTitle = styled.h4`
     color: rgb(255, 179, 26);
     margin: 0;
     text-align: left;
+    font-size: 18px;
 `;
 
 export const OtherSkillList = styled.ul`

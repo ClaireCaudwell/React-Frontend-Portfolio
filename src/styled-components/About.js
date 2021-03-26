@@ -6,10 +6,13 @@ export const Container = styled.section`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px 0px;
+    padding: 10px 0px;
     background: rgb(244, 244, 244);
     &.backend{
         background: rgb(255, 255, 255);
+    }
+    &.footer-container{
+        padding: 0;
     }
 `;
 
@@ -34,7 +37,7 @@ export const CircleShape = styled.span`
 export const AboutText = styled.h5`
     font-family: 'Montserrat', sans-serif;
     color: rgb(0, 0, 0);
-    font-size: 18px;
+    font-size: 15px;
     width: 80%;
     margin: 0 auto;
     text-align: justify;
