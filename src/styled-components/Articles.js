@@ -1,6 +1,6 @@
 import styled from "styled-components/macro";
 import { Container } from "./About"
-import { SkillsTitle } from "./OtherSkills";
+// import { SkillsTitle } from "./OtherSkills";
 import { ProjectTitle, ProjectText } from "./ProjectList";
 
 export const ArticleContainer = styled(Container)`
@@ -27,16 +27,14 @@ export const ArticleImage = styled.img`
     margin-bottom: 10px;
 `; 
 
-export const ArticleDate = styled(SkillsTitle)`
-    margin-bottom: 10px;
-    font-size: 20px;
+export const ArticleDate = styled(ProjectTitle)`
+    margin-bottom: 10px;    
     display: inline;
 `;
 
-export const ArticleTitle  = styled(ProjectTitle)`
+export const ArticleTitle = styled(ProjectTitle)`
     color: #000;
     margin: 10px 0 0;
-    font-size: 18px;
 `;
 
 export const ArticleText = styled(ProjectText)`

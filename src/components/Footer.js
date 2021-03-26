@@ -9,7 +9,7 @@ import { Container } from "../styled-components/About";
 export const Footer = () => {
     return (
         <FooterContainer>
-            <MainTitle>CONTACT</MainTitle>
+            <MainTitle className="footer-title">CONTACT</MainTitle>
             <Container className="footer-container">
                 <FooterText>Get in touch. I'd love to hear from you!</FooterText>
                 <SocialMediaIcons footer={"footer"}/>

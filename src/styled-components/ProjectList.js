@@ -64,8 +64,9 @@ export const ProjectImage = styled.img`
     object-fit: cover; 
 `;
 
-export const ProjectTitle = styled.h4`
+export const ProjectTitle = styled.span`
     font-weight: 700;
+    font-size: 15px;
     margin: 0 5px 0 0;
     color: #ffb31a;
     display: inline;
@@ -125,14 +126,14 @@ export const TagItem = styled.li`
 
 export const LoadMoreButton = styled.button`
     border: none;
-    font-size: 18px;
+    font-size: 15px;
     border-radius: 3px;
     padding: 10px;
     background-color: #ffb31a;
     color: #000;
     transition: 0.3s;
     outline: none;
-    margin: 15px 0;
+    margin: 10px 0 15px 0;
     &:hover{
         cursor: pointer;
         background-color: #ffc34d;

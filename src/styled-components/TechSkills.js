@@ -16,6 +16,9 @@ export const MainTitle = styled.h3`
     color:rgb(255, 255, 255);
     text-align: center;
     border-radius: 2px;
+    &.footer-title{
+        margin: 5px 0;
+    }
 `;
 
 export const InnerContainer = styled.div`
