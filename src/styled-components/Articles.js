@@ -1,23 +1,35 @@
 import styled from "styled-components/macro";
 import { Container } from "./About"
-// import { SkillsTitle } from "./OtherSkills";
 import { ProjectTitle, ProjectText } from "./ProjectList";
 
 export const ArticleContainer = styled(Container)`
-    background: rgb(255, 255, 255);
+    background: #fff;
 `;
 
 export const InnerArticleContainer = styled.div`
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 80%;
     margin: 0 auto;
+    @media(min-width: 700px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 `;
 
 export const ArticleCard = styled.a`
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-decoration: none;
+    @media(min-width: 700px){
+        width: 45%;
+        margin: 10px;
+    }
+    @media(min-width: 1024px){
+        width: 35%;
+    }
 `;
 
 export const ArticleImage = styled.img`
@@ -33,7 +45,7 @@ export const ArticleDate = styled(ProjectTitle)`
 `;
 
 export const ArticleTitle = styled(ProjectTitle)`
-    color: #000;
+    color: #333333;
     margin: 10px 0 0;
 `;
 

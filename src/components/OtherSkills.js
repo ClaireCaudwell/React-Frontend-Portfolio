@@ -4,6 +4,7 @@ import skillsdata from "../data/skillsdata";
 
 import { 
     OtherSkillsContainer,
+    OuterSkillsContainer,
     InnerSkillsContainer,
     SkillsTitle,
     OtherSkillList,
@@ -15,18 +16,20 @@ export const OtherSkills = () => {
     return (
         <OtherSkillsContainer>
             <MainTitle>OTHER SKILLS</MainTitle>
+            <OuterSkillsContainer>
                 {skillsdata.map((skills, index) => (
-                    <InnerSkillsContainer key={index}>
-                        <SkillsTitle>{skills.title}</SkillsTitle>
-                        <OtherSkillList key={skills.id}>
-                            {skills.skills.map((skill, index) => (
-                                <OtherSkillItem key={index}>
-                                    {skill}
-                                </OtherSkillItem>
-                            ))}
-                        </OtherSkillList>
-                    </InnerSkillsContainer>
+                        <InnerSkillsContainer key={index}>
+                            <SkillsTitle>{skills.title}</SkillsTitle>
+                            <OtherSkillList key={skills.id}>
+                                {skills.skills.map((skill, index) => (
+                                    <OtherSkillItem key={index}>
+                                        {skill}
+                                    </OtherSkillItem>
+                                ))}
+                            </OtherSkillList>
+                        </InnerSkillsContainer>
                 ))}
+            </OuterSkillsContainer>
         </OtherSkillsContainer>
     );
 };

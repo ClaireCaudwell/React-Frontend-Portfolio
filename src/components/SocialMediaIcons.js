@@ -17,17 +17,47 @@ export const SocialMediaIcons = ({ header }) => {
         <SocialMediaContainer 
             className={!header && "footer-sm-icons"}
         >
-            <IconContainer href="mailto:clairecaudwell@gmail.com" target="_blank" rel="noopener noreferrer">
-                <IconImage src={email} alt="email icon" />
+            <IconContainer 
+                href="mailto:clairecaudwell@gmail.com" 
+                target="_blank" rel="noopener noreferrer"
+                className={!header && "footer-sm-icons"}
+            >
+                <IconImage 
+                    src={email} 
+                    alt="email icon"
+                    className={!header && "footer-sm-icons"} 
+                />
             </IconContainer>            
-            <IconContainer href="https://www.linkedin.com/in/claire-caudwell-229354a5/" target="_blank" rel="noopener noreferrer">
-                <IconImage src={linkedin} alt="linkedin icon" />
+            <IconContainer 
+                href="https://www.linkedin.com/in/claire-caudwell-229354a5/" target="_blank" rel="noopener noreferrer"
+                className={!header && "footer-sm-icons"}
+            >
+                <IconImage 
+                    src={linkedin} 
+                    alt="linkedin icon"
+                    className={!header && "footer-sm-icons"} 
+                />
             </IconContainer>            
-            <IconContainer href="https://github.com/ClaireCaudwell" target="_blank" rel="noopener noreferrer">
-                <IconImage src={github} alt="github icon" />
+            <IconContainer 
+                href="https://github.com/ClaireCaudwell" 
+                target="_blank" rel="noopener noreferrer"
+                className={!header && "footer-sm-icons"}
+            >
+                <IconImage 
+                    src={github} 
+                    alt="github icon"
+                    className={!header && "footer-sm-icons"} 
+                />
             </IconContainer>
-            <IconContainer href="https://stackexchange.com/users/19239637/" target="_blank" rel="noopener noreferrer">
-                <IconImage src={stackoverflow} alt="stackoverflow icon" />
+            <IconContainer 
+                href="https://stackexchange.com/users/19239637/" target="_blank" rel="noopener noreferrer"
+                className={!header && "footer-sm-icons"}
+            >
+                <IconImage 
+                    src={stackoverflow} 
+                    alt="stackoverflow icon"
+                    className={!header && "footer-sm-icons"} 
+                />
             </IconContainer>
         </SocialMediaContainer>
     );

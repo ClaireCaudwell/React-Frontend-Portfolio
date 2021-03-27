@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
     ProjectCard,
@@ -14,17 +14,33 @@ import {
     TagItem,
 } from "../styled-components/ProjectList";
 
-
 export const FrontendProject = ({ frontendProject }) => {
+
+    const [ hoverImage, setHoverImage ] = useState(false);
+
+    const onHover = () => {
+        setHoverImage(true);
+    };
+    const offHover = () => {
+        setHoverImage(false);
+    };
+    
     return (
         <ProjectCard>
             <ProjectLink 
                 href={frontendProject.link} 
                 target="_blank" 
                 rel="noopener noreferrer">
-                    <ProjectImageContainer aria-hidden="true">
+                    <ProjectImageContainer 
+                        aria-hidden="true" 
+                        onMouseOver={onHover}
+                        onMouseOut={offHover}
+                    >
                         <ImageOverlay></ImageOverlay>
-                        <ProjectImageTitle>{frontendProject.projectName}</ProjectImageTitle>
+                        <ProjectImageTitle 
+                            className={hoverImage && "dark-fontcolour"}>
+                            {frontendProject.projectName}
+                        </ProjectImageTitle>
                         <ProjectImage 
                             src={require("../assets" +frontendProject.img)} 
                             alt={frontendProject.alt}

@@ -6,6 +6,11 @@ export const ProjectCardContainer = styled.div`
     flex-direction: column;
     width: 80%;
     margin-bottom: 0px;
+    @media(min-width: 700px){
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 `;
 
 export const ProjectCard = styled.div`
@@ -15,6 +20,13 @@ export const ProjectCard = styled.div`
     &.backend{
         margin-top: 0;
     }
+    @media(min-width: 700px){
+        width: 45%;
+        margin: 10px;
+    }
+    @media(min-width: 1024px){
+        width: 35%;
+    } 
 `;
 
 export const ProjectLink = styled.a`
@@ -26,7 +38,7 @@ export const ProjectImageContainer = styled.div`
     position: relative;
     text-align: center;
     transition: 0.5s ease;
-    color: rgb(255, 255, 255);
+    color: #fff;
     width: 100%;
     height: 250px;
     &:hover{
@@ -56,6 +68,11 @@ export const ProjectImageTitle = styled.p`
     margin: 0;
     padding: 10px;
     border-radius: 2px;
+    color: #fff;
+    transition: 0.3s;
+    &.dark-fontcolour{
+        color: transparent;
+    }
 `;
 
 export const ProjectImage = styled.img`
@@ -78,7 +95,7 @@ export const ProjectText = styled.p`
     font-size: 15px;
     text-align: justify;
     font-weight: 400;
-    color: rgb(0, 0, 0);
+    color: #333333;
     margin: 7px 0 0;
     line-height: 2;
     transition: 0.3s;
@@ -113,7 +130,7 @@ export const TagsListContainter = styled.ul`
 
 export const TagItem = styled.li`
     background:rgb(170, 219, 189);
-    color: rgb(255, 255, 255);
+    color: #fff;
     padding: 5px; 
     font-size: 12px;
     font-family: 'Roboto', sans-serif;
@@ -130,10 +147,12 @@ export const LoadMoreButton = styled.button`
     border-radius: 3px;
     padding: 10px;
     background-color: #ffb31a;
-    color: #000;
+    color: #333333;
+    font-weight: 600;
     transition: 0.3s;
     outline: none;
     margin: 10px 0 15px 0;
+    font-family: 'Roboto',sans-serif;
     &:hover{
         cursor: pointer;
         background-color: #ffc34d;

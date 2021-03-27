@@ -7,40 +7,29 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     padding: 10px 0px;
-    background: rgb(244, 244, 244);
+    background: #f4f4f4;
     &.backend{
-        background: rgb(255, 255, 255);
+        background: #fff;
     }
     &.footer-container{
         padding: 0;
     }
-`;
 
-export const LineShape = styled.section`
-    width: 40px;
-    height: 3px;
-    border-radius: 10px;
-    background: rgb(255, 179, 26);
-    display: inline-block;
-    margin-bottom: 5px;
-`;
-
-export const CircleShape = styled.span`
-    width: 12px;
-    height: 12px;
-    background: rgb(255, 179, 26);
-    border-radius: 50%;
-    display: inline-block;
-    margin-right: 10px;
 `;
 
 export const AboutText = styled.h5`
     font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 0, 0);
+    color: #333333;
     font-size: 15px;
     width: 80%;
-    margin: 0 auto;
+    margin: 0 0 10px 0;
     text-align: justify;
     line-height: 2;
     font-weight: 400;
+    @media(min-width: 800px){
+        width: 60%;
+    }
+    @media(min-width: 1024px){
+        width: 55%;
+    }
 `;
