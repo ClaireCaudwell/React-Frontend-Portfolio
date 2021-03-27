@@ -8,12 +8,14 @@ import { ProjectList } from "./components/ProjectList";
 import { OtherSkills } from "./components/OtherSkills";
 import { Articles } from "./components/Articles";
 import { Footer } from "./components/Footer";
+import { ScrollTopArrow } from "./components/ScrollTopArrow";
 
 export const App = () => {
   return (
     <>
       <Header />
       <MainContainer>
+        <ScrollTopArrow />
         <About />
         <TechSkills />
         <ProjectList />

@@ -1,5 +1,7 @@
 import React from "react";
 
+import { FaReact } from "react-icons/fa";
+
 import { SocialMediaIcons } from "./SocialMediaIcons";
 
 import { FooterContainer, FooterText } from "../styled-components/Footer";
@@ -11,10 +13,16 @@ export const Footer = () => {
         <FooterContainer>
             <MainTitle className="footer-title">CONTACT</MainTitle>
             <Container className="footer-container">
-                <FooterText>Get in touch. I'd love to hear from you!</FooterText>
+                <FooterText>
+                    Get in touch. I'd love to hear from you!
+                </FooterText>
                 <SocialMediaIcons footer={"footer"}/>
             </Container>
-            <FooterText className="final-footer-text">This site was created using <TextSpan>React.js</TextSpan> and <TextSpan>styled-components</TextSpan></FooterText>
+            <FooterText className="final-footer-text">
+                This site was created using <TextSpan>React.js</TextSpan> <FaReact  
+                style={{height: 20}}
+            /> and <TextSpan>styled-components</TextSpan>
+            </FooterText>
         </FooterContainer>
     );
 };

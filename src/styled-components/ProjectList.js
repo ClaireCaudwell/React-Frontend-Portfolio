@@ -140,6 +140,9 @@ export const TagItem = styled.li`
 `;
 
 // Load more button
+export const ButtonContainer = styled.div`
+    display: flex;
+`;
 
 export const LoadMoreButton = styled.button`
     border: none;
@@ -151,12 +154,15 @@ export const LoadMoreButton = styled.button`
     font-weight: 600;
     transition: 0.3s;
     outline: none;
-    margin: 10px 0 15px 0;
+    margin: 15px;
     font-family: 'Roboto',sans-serif;
     &:hover{
         cursor: pointer;
         background-color: #ffc34d;
         transition: 0.3s;
+    }
+    &.hide-button{
+        display: none;
     }
 `;
 

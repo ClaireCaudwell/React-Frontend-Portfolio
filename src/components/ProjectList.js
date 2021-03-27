@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import FrontendProjectData from "../data/frontendprojectsdata.json";
 import BackendProjectData from "../data/backendprojectsdata.json";
@@ -8,15 +8,34 @@ import { BackendProject } from "./BackendProject";
 
 import { Container } from "../styled-components/About";
 import { MainTitle } from "../styled-components/TechSkills";
-import { ProjectCardContainer, LoadMoreButton } from "../styled-components/ProjectList";
+import { 
+    ProjectCardContainer,
+    ButtonContainer,
+    LoadMoreButton 
+} from "../styled-components/ProjectList";
 
 export const ProjectList = () => {
 
     const [ visibleProjects, setVisibleProjects ] = useState(4);
+    const [ showCertainButton, setShowCertainButton ] = useState(false);
 
-    const handleClick = () => {
-        setVisibleProjects(preVisibleProjects => preVisibleProjects + 4);
+    const handleShowMoreProjects = () => {
+        setVisibleProjects(preVisibleProjects => preVisibleProjects + 4);             
     };
+
+    console.log(visibleProjects);
+
+    const handleShowLessProjects = () => {
+        setVisibleProjects(4);
+    };
+
+    useEffect(() => {
+        if(visibleProjects > 5){
+            setShowCertainButton(true);
+        } else {
+            setShowCertainButton(false);
+        } 
+    }, [visibleProjects]);
 
     return (
         <>
@@ -27,9 +46,19 @@ export const ProjectList = () => {
                             <FrontendProject key={frontendProject.id} frontendProject={frontendProject} />
                         ))}
                     </ProjectCardContainer>
-                    <LoadMoreButton onClick={handleClick}>
-                    {visibleProjects === 16 ? "All projects loaded" : "Load more projects"}
-                    </LoadMoreButton>
+                    <ButtonContainer>
+                        <LoadMoreButton 
+                            onClick={handleShowMoreProjects}
+                            className={visibleProjects > 14 && "hide-button"}
+                        >
+                            Show more projects
+                        </LoadMoreButton>
+                        {showCertainButton && 
+                            <LoadMoreButton onClick={handleShowLessProjects}>
+                                Show less projects
+                            </LoadMoreButton>
+                        }
+                    </ButtonContainer>
             </Container>
             <Container className="backend">
                 <MainTitle>BACKEND PROJECTS</MainTitle>

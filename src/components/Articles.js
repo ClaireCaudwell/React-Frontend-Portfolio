@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 import articledata from "../data/articledata";
 
@@ -16,10 +16,25 @@ import { Arrow, LoadMoreButton } from "../styled-components/ProjectList";
 
 export const Articles = () => {
     const [ visibleArticles, setVisibleArticles ] = useState(2);
+    const [ showCertainButton, setShowCertainButton ] = useState(false);
 
-    const handleClick = () => {
-        setVisibleArticles(preVisibleArticles => preVisibleArticles + 2);
+    const handleShowMoreArticles = () => {
+        setVisibleArticles(preVisibleArticles => preVisibleArticles + 2);             
     };
+
+    const handleShowLessArticles = () => {
+        if(visibleArticles > 2){
+            setVisibleArticles(preVisibleArticles => preVisibleArticles - 2);
+        }
+    };
+
+    useEffect(() => {
+        if(visibleArticles > 3){
+            setShowCertainButton(true);
+        } else {
+            setShowCertainButton(false);
+        } 
+    }, [visibleArticles]);
 
     return (
         <ArticleContainer>
@@ -45,9 +60,15 @@ export const Articles = () => {
                     </ArticleCard>
                 ))}
             </InnerArticleContainer>
-            <LoadMoreButton onClick={handleClick}>
-                {visibleArticles === 4 ? "All articles loaded" : "Load more articles"}
+            {showCertainButton ? (
+                <LoadMoreButton onClick={handleShowLessArticles}>
+                    Show less articles
                 </LoadMoreButton>
+            ) : (
+                <LoadMoreButton onClick={handleShowMoreArticles}>
+                    Show more articles
+                </LoadMoreButton>
+            )}
         </ArticleContainer>
     );
 };
