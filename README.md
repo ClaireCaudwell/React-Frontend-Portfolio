@@ -10,3 +10,4 @@ Previously it was built using HTML, CSS and JavaScript https://github.com/Claire
 4. react-icons library
 
 ## Deployed portfolio site: 
+https://claire-caudwell-portfolio.netlify.app/ 
