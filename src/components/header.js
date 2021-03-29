@@ -4,8 +4,7 @@ import { HeaderText } from "./HeaderText";
 
 import { HeaderContainer } from "../styled-components/Header";
 
-export const Header = ({ forwardedRef }) => {
-  
+export const Header = ({ forwardedRef }) => {  
 
   return (
       <HeaderContainer ref={forwardedRef}>

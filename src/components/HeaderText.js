@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import profileImage from "../assets/claire-image.jpg";
+import profileImage from "../assets/claire-image";
 import { SocialMediaIcons } from "./SocialMediaIcons";
 
 import { 
@@ -14,7 +14,7 @@ import {
 export const HeaderText = () => {
 
     useEffect(() => {
-    setClassName(true);
+        setClassName(true);
     }, []);
     
     const [ className, setClassName ] = useState(false);
