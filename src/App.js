@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled from "styled-components";
 
-import { Header } from "./components/header";
+import { Header } from "./components/Header";
 import { About } from "./components/About";
 import { TechSkills } from "./components/TechSkills";
 import { ProjectList } from "./components/ProjectList";
