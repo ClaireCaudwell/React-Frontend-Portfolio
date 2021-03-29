@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import profileImage from "../assets/claire-image";
+import profileImage from "../assets/claire-image.jpg";
 import { SocialMediaIcons } from "./SocialMediaIcons";
 
 import { 
