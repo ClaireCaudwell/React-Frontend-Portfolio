@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0 auto;
   width: 100%;
@@ -5,4 +9,46 @@ body {
 
 * {
   box-sizing: border-box;
+}
+
+.scrollTop {
+  position: fixed; 
+  width: 100%;
+  bottom: 7px;
+  left:  150px;
+  align-items: center;
+  height: 20px;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+  animation: fadeIn 0.3s;
+  transition: opacity 0.4s;
+  opacity: 0.5;
+}
+
+@media(min-width: 600px){
+  .scrollTop {
+      left:  287px;
+      bottom: 11px
+  }
+}
+@media(min-width: 750px){
+  .scrollTop {
+      left:  340px;
+      bottom: 20px;
+  }
+}
+@media(min-width: 1024px){
+  .scrollTop {
+      left:  470px;
+  }
+}
+@media(min-width: 1300px){
+  .scrollTop {
+      left:  500px;
+  }
+}
+
+.scrollTop:hover{
+  opacity: 1;
 }

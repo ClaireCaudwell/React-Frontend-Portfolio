@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import styled from "styled-components";
 
 import { Header } from "./components/Header.js";
@@ -11,17 +11,19 @@ import { Footer } from "./components/Footer";
 import { ScrollTopArrow } from "./components/ScrollTopArrow";
 
 export const App = () => {
+  const scrollUpToRef = useRef(null);
+
   return (
     <>
-      <Header />
+      <Header forwardedRef={scrollUpToRef}/>
       <MainContainer>
-        <ScrollTopArrow />
         <About />
         <TechSkills />
         <ProjectList />
         <OtherSkills />
         <Articles />
         <Footer />
+        <ScrollTopArrow forwardedRef={scrollUpToRef}/>
       </MainContainer>
     </>
   );

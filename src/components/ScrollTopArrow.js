@@ -1,12 +1,16 @@
 import React, { useState } from "react";
 
-import {FaArrowCircleUp} from 'react-icons/fa';
-import "../App.css";
+import { FaArrowCircleUp } from 'react-icons/fa';
+import "../index.css";
 
-export const ScrollTopArrow = () => {
+export const ScrollTopArrow = ({ forwardedRef  }) => {
 
     const [ showScroll, setShowScroll ] = useState(false);
-    
+
+    const scrollTop = () => {
+        forwardedRef.current.scrollIntoView();
+    };
+
     const checkScrollTop = () => {
         if(!showScroll && window.pageYOffset > 400) {
             setShowScroll(true);
@@ -17,15 +21,13 @@ export const ScrollTopArrow = () => {
 
     window.addEventListener("scroll", checkScrollTop);
 
-    const scrollTop = () => {
-        window.scrollTo({top: 0, behaviour: "smooth"});
-    };
-
-    return(
-        <FaArrowCircleUp 
-            className="scrollTop" 
-            onClick={scrollTop} 
-            style={{height: 35, display: showScroll ? 'flex' : 'none'}}
-        />
+    return (
+        <>
+            <FaArrowCircleUp 
+                className="scrollTop" 
+                onClick={scrollTop} 
+                style={{height: 35, display: showScroll ? 'flex' : 'none'}}
+            />
+        </>
     );
 };

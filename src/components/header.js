@@ -4,10 +4,11 @@ import { HeaderText } from "./HeaderText";
 
 import { HeaderContainer } from "../styled-components/Header";
 
-export const Header = () => {
+export const Header = ({ forwardedRef }) => {
+  
 
   return (
-      <HeaderContainer>
+      <HeaderContainer ref={forwardedRef}>
         <HeaderText />
       </HeaderContainer>
   );

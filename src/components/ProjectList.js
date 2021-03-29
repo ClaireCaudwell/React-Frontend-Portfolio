@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import FrontendProjectData from "../data/frontendprojectsdata.json";
 import BackendProjectData from "../data/backendprojectsdata.json";
@@ -18,15 +18,15 @@ export const ProjectList = () => {
 
     const [ visibleProjects, setVisibleProjects ] = useState(4);
     const [ showCertainButton, setShowCertainButton ] = useState(false);
+    const scrollUpToRef = useRef(null);
 
     const handleShowMoreProjects = () => {
         setVisibleProjects(preVisibleProjects => preVisibleProjects + 4);             
     };
 
-    console.log(visibleProjects);
-
     const handleShowLessProjects = () => {
         setVisibleProjects(4);
+        scrollUpToRef.current.scrollIntoView();
     };
 
     useEffect(() => {
@@ -40,7 +40,7 @@ export const ProjectList = () => {
     return (
         <>
             <Container>
-                <MainTitle>FRONTEND PROJECTS</MainTitle>
+                <MainTitle ref={scrollUpToRef}>FRONTEND PROJECTS</MainTitle>
                     <ProjectCardContainer>
                         {FrontendProjectData.slice(0, visibleProjects).map(frontendProject => (
                             <FrontendProject key={frontendProject.id} frontendProject={frontendProject} />

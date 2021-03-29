@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import articledata from "../data/articledata";
 
@@ -18,14 +18,17 @@ export const Articles = () => {
     const [ visibleArticles, setVisibleArticles ] = useState(2);
     const [ showCertainButton, setShowCertainButton ] = useState(false);
 
+    const scrollUpToRef = useRef(null);
+
     const handleShowMoreArticles = () => {
         setVisibleArticles(preVisibleArticles => preVisibleArticles + 2);             
     };
 
     const handleShowLessArticles = () => {
         if(visibleArticles > 2){
-            setVisibleArticles(preVisibleArticles => preVisibleArticles - 2);
+            setVisibleArticles(2);
         }
+        scrollUpToRef.current.scrollIntoView();
     };
 
     useEffect(() => {
@@ -38,7 +41,7 @@ export const Articles = () => {
 
     return (
         <ArticleContainer>
-            <MainTitle>CODING THOUGHTS</MainTitle>
+            <MainTitle ref={scrollUpToRef}>CODING THOUGHTS</MainTitle>
             <InnerArticleContainer>
                 {articledata.slice(0, visibleArticles).map(article => (
                     <ArticleCard 

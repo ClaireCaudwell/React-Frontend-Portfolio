@@ -62,7 +62,6 @@ export const IconContainer = styled.a`
             padding: 15px;
         }
     }
-
 `;
 
 export const IconImage = styled.img`
@@ -106,6 +105,9 @@ export const NameTitle = styled.h1`
     font-weight: 600;
     text-align: center;
     color: #333333;
+    @media(min-width: 1024px){
+        font-size: 34px;
+    }
 `;
 
 export const DeveloperTitle = styled.h3`
@@ -114,6 +116,9 @@ export const DeveloperTitle = styled.h3`
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     color: #333333;
+    @media(min-width: 1024px){
+        font-size: 27px;
+    }
 `;
 
 export const ProfileImage = styled.img`
@@ -126,4 +131,8 @@ export const ProfileImage = styled.img`
     margin-top: -25px;
     margin-right: 10px;
     border: 2px solid #ffb31a;
+    @media(min-width: 1024px){
+        width: 137px;
+        height: 137px;
+    }
 `;
