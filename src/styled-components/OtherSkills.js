@@ -35,7 +35,6 @@ export const InnerSkillsContainer = styled(InnerContainer)`
 
 export const SkillsTitle = styled.h4`
     font-weight: 700;
-    font-family: 'Roboto', sans-serif;
     color: #ffb31a;
     margin: 0;
     text-align: left;
@@ -47,9 +46,7 @@ export const OtherSkillList = styled.ul`
     text-align: left; 
     padding-left: 0;
     font-weight: 400;
-    color: #333333;
     font-size: 15px;
-    font-family: 'Montserrat', sans-serif;   
 `;
 
 export const OtherSkillItem = styled.li`

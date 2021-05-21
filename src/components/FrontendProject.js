@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 
+import github from "../assets/white-github.png";
+
 import {
     ProjectCard,
     ProjectLink,
@@ -7,12 +9,19 @@ import {
     ImageOverlay,
     ProjectImageTitle,
     ProjectImage,
+    // ProjectTitle,
+    GitHubContainer,
+    GitHubIconContainer,
+    GitHubTitle,
     ProjectText,
-    ProjectTitle,
     Arrow,
     TagsListContainter,
     TagItem,
 } from "../styled-components/ProjectList";
+
+import {
+    IconImage
+} from "../styled-components/Header";
 
 export const FrontendProject = ({ frontendProject }) => {
 
@@ -47,11 +56,25 @@ export const FrontendProject = ({ frontendProject }) => {
                         />
                     </ProjectImageContainer>
                     <ProjectText>
-                        <ProjectTitle>{frontendProject.projectName}: </ProjectTitle>
+                        {/* <ProjectTitle>{frontendProject.projectName}: </ProjectTitle> */}
                         {frontendProject.text}
                         <Arrow>&#707;&#707;</Arrow>
                     </ProjectText>
             </ProjectLink>
+            <GitHubContainer
+                href={frontendProject.githubLink}  
+                target="_blank" 
+                rel="noopener noreferrer"
+            >
+                <GitHubIconContainer>
+                    <IconImage 
+                        src={github} 
+                        alt="github icon"
+                        className="github-icon" 
+                    />
+                </GitHubIconContainer>
+                <GitHubTitle >GitHub code</GitHubTitle >
+            </GitHubContainer>
             <TagsListContainter>
                 {frontendProject.tags.map((tag, index) => (
                     <TagItem key={index}>{tag}</TagItem>

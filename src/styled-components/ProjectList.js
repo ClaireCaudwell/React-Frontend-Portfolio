@@ -62,7 +62,6 @@ export const ProjectImageTitle = styled.p`
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-family: 'Montserrat', sans-serif;
     font-size: 28px;
     font-weight: 700;
     margin: 0;
@@ -83,28 +82,28 @@ export const ProjectImage = styled.img`
 
 export const ProjectTitle = styled.span`
     font-weight: 700;
-    font-size: 15px;
-    margin: 0 5px 0 0;
+    font-size: 20px;
+    margin: 20px 0;
     color: #ffb31a;
     display: inline;
-    font-family: 'Roboto', sans-serif;
 `;
 
 export const ProjectText = styled.p`
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
     text-align: justify;
     font-weight: 400;
-    color: #333333;
     margin: 7px 0 0;
     line-height: 2;
     transition: 0.3s;
+    padding: 7px;
+    border-radius: 20px;
+    height: 100px;
     &:hover{
         background-color: #e6e6e6;
         transition: 0.3s;
     }
     &.backend{
         margin-top: 0;
+        height: auto;
     }
     &.backend:hover{        
         background-color: #f2f2f2;
@@ -116,6 +115,45 @@ export const Arrow = styled(TextSpan)`
     display: inline;
     margin-left: 10px;
     font-weight: 700;
+`;
+
+
+// GitHub icon/Link
+export const GitHubContainer = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+    padding: 10px 0;
+    transition: 0.3s; 
+    &:hover{
+        background-color: #cccccc;
+        transition: 0.3s; 
+    }
+`;
+
+export const GitHubIconContainer = styled.div` 
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: #ffb31a;
+    padding: 10px;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover{
+        background-color: #ffaa00;
+        transition: 0.3s; 
+    }
+`;
+
+export const GitHubTitle = styled(ProjectTitle)`
+    font-size: 15px;
+    color: #000;
+    margin: 0 0 0 10px;
 `;
 
 // Tags
@@ -133,7 +171,6 @@ export const TagItem = styled.li`
     color: #fff;
     padding: 5px; 
     font-size: 12px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     margin-right: 13px;
     margin-top: 5px;
@@ -150,15 +187,13 @@ export const LoadMoreButton = styled.button`
     border-radius: 3px;
     padding: 10px;
     background-color: #ffb31a;
-    color: #333333;
     font-weight: 600;
     transition: 0.3s;
     outline: none;
     margin: 15px;
-    font-family: 'Roboto',sans-serif;
     &:hover{
         cursor: pointer;
-        background-color: #ffc34d;
+        background-color: #ffaa00;
         transition: 0.3s;
     }
     &.hide-button{

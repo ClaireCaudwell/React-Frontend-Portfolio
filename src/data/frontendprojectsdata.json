@@ -5,7 +5,8 @@
         "link": "https://claires-digital-organiser.netlify.app/",
         "img": "/digital-organiser.png",
         "alt": "Digital organiser image",
-        "text": "A fullstack project where I built both the front and backend to create a digital organiser. The user can sign up/login, create their own schedule and add notes and implemented a toggle input so the user can toggle between two different colour schemes",
+        "text": "A fullstack project where I built both the front and backend to create a digital organiser.",
+        "githubLink": "https://github.com/ClaireCaudwell/Final-project-digital-organiser",
         "tags": [
             "REACT.JS",
             "REDUX",
@@ -18,11 +19,27 @@
     },
     {
         "id": 2,
+        "projectName": "EMOJI MEMORY GAME",
+        "link": "https://claires-emoji-memory.netlify.app/",
+        "img": "/emoji-memory-game.png",
+        "alt": "Emoji memory game image",
+        "text": "A simple emoji memory game built using HMTL, CSS and JS.",
+        "githubLink": "https://github.com/ClaireCaudwell/emoji-memory",
+        "tags": [
+            "HTML",
+            "CSS",
+            "JAVASCRIPT",
+            "EMOJIS"
+        ]
+    },
+    {
+        "id": 3,
         "projectName": "TODO LIST",
         "link": "https://epic-blackwell-4f00c6.netlify.app/",
         "img": "/todo-list.png",
         "alt": "TODO list image",
-        "text": "A useable todo app that allows for the user to add, list and remove to do's. Created in React and using Redux global store to store the todo's. As well as using reducers and actions to select data from and dispatch data to the Redux store",
+        "text": "A useable todo app that allows for the user to add, list and remove to do's built using React and Redux.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-todos",
         "tags": [
             "REACT.JS",
             "REDUX",
@@ -32,12 +49,13 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "projectName": "HAPPY THOUGHTS",
         "link": "https://silly-wing-fdef06.netlify.app/",
         "img": "/happy-thoughts.png",
         "alt": "Happy thoughts image",
-        "text": "Created a twitter like site where users can post and read happy thoughts. Using React, useState and useEffect to get data from and post to the api and making it visible in the DOM",
+        "text": "A twitter like site where users can post and read happy thoughts. Built in React using useState and useEffect hooks.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-happy-thoughts",
         "tags": [
             "REACT.JS",
             "CSS 3",
@@ -46,12 +64,13 @@
         ]
     },
     {
-        "id": 4,
+        "id": 5,
         "projectName": "MOVIE RELEASES",
         "link": "https://wonderful-wilson-448fcd.netlify.app/",
         "img": "/movie-releases.png",
         "alt": "Movie releases image",
-        "text": "Created a mulit-page application of the current top 20 Ryan Gosling films using the The Movie database api. Used React navigation to create the different pages that shows the film detail",
+        "text": "Created a mulit-page application of the current top 20 Ryan Gosling films using the The Movie database api.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-movies",
         "tags": [
             "REACT.JS",
             "NAVIGATION",
@@ -60,12 +79,13 @@
         ]
     },
     {
-        "id": 5,
+        "id": 6,
         "projectName": "PROJECT AUTH",
         "link": "https://upbeat-edison-ad175c.netlify.app/",
         "img": "/auth.png",
         "alt": "Project auth image",
-        "text": "In a team we created both a frontend and backend. The frontend consists of a sign up or login page and the inputted data is sent to the backend to authenticate the user so they can then access their 'secret info'. Built using React.js and Redux for the frontend and Node.js, Mongoose and MongoDB for the backend",
+        "text": "A team project where we created both a frontend and backend allowing the user to login or sign-up.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-auth",
         "tags": [
             "REACT.JS",
             "NODE.JS",
@@ -78,12 +98,13 @@
         ]
     },
     {
-        "id": 6,
+        "id": 7,
         "projectName": "LABRYNTH",
         "link": "https://ecstatic-wing-fa166d.netlify.app/",
         "img": "/labrynth.png",
         "alt": "Labrynth image",
-        "text": "A air programming project where we built an interactive text based game. Accessing data from two API endpoints, storing data returned in the Redux store and dealing with fetches asynchronous nature by implementing thunks",
+        "text": "A pair programming project where we built an interactive text based game using React and Redux.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-labyrinth",
         "tags": [
             "REACT.JS",
             "REDUX",
@@ -94,12 +115,13 @@
         ]
     },
     {
-        "id": 7,
+        "id": 8,
         "projectName": "BUILD A SURVEY",
         "link": "https://flamboyant-poitras-c5efb2.netlify.app/",
         "img": "/project-survey.png",
         "alt": "Survey image",
-        "text": "Built a survey for the Beer Craft Co. in React, practising using React and the useState hook. The survey needed to included radio buttons and select input and meet basic accessibility requirements",
+        "text": "Built a survey for the Beer Craft Co. in React, practising using React, the useState hook and accessiblity.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-survey",
         "tags": [
             "REACT.JS",
             "PROPS",
@@ -109,12 +131,13 @@
         ]
     },    
     {
-        "id": 8,
+        "id": 9,
         "projectName": "REDUX QUIZ",
         "link": "https://vibrant-kirch-914d32.netlify.app/",
         "img": "/redux-quiz.png",
         "alt": "Redux quiz image",
-        "text": "In a team we built an quiz app using React and Redux. We used the state to render the quiz questions one at a time. User clicks to see if the answer is correct or not before moving on to the next question. After answering all five questions a summary of the answers is shown and the chance to do the quiz again",
+        "text": "In a team we built an quiz app using React and Redux. We used the state to render the quiz questions one at a time.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-redux-quiz",
         "tags": [
             "REACT.JS",
             "REDUX",
@@ -123,12 +146,13 @@
         ]
     },
     {
-        "id": 9,
+        "id": 10,
         "projectName": "REACT NATIVE APP",
         "link": "https://snack.expo.io/@clairecaudwell/github.com-clairecaudwell-project-react-native-app",
         "img": "/react-native.png",
         "alt": "React native image",
-        "text": "Spent the week building and developing a react native project of positive quotes where the user can click on different symbols to show a different quote",
+        "text": "A react native project of positive quotes where the user can click on different symbols to show a different quote",
+        "githubLink": "https://github.com/ClaireCaudwell/project-react-native-app",
         "tags": [
             "REACT NATIVE",
             "NAVIGATION",
@@ -137,12 +161,13 @@
         ]
     },
     {
-        "id": 10,
+        "id": 11,
         "projectName": "MUSIC RELEASES",
         "link": "https://objective-wing-b8f314.netlify.app/",
         "img": "/music-releases.png",
         "alt": "Music releases image",
-        "text": "A pair programming project where we created a music release site in React using components and props. Accessing the data, fetched from the Spotify API, stored in the data.json",
+        "text": "A pair programming project where we created a music release site in React using data from the Spotify API.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-music-releases",
         "tags": [
             "REACT.JS",
             "PROPS",
@@ -152,12 +177,13 @@
         ]
     },
     {
-        "id": 11,
+        "id": 12,
         "projectName": "WEATHER APP",
         "link": "https://hardcore-keller-653d90.netlify.app/",
         "img": "/weather-app.png",
         "alt": "Weather app image",
-        "text": "A responsive weather app created using vanilla javascript fetching the data from the open weather API. Accessing specific data made visible in the DOM",
+        "text": "A responsive weather app created using HTML, CSS and vanilla javascript fetching the data from the open weather API.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-weather-app",
         "tags": [
             "HTML5",
             "CSS3",
@@ -168,12 +194,13 @@
         ]
     },
     {
-        "id": 12,
+        "id": 13,
         "projectName": "FOOD SEARCH SITE",
         "link": "https://elastic-blackwell-9c9f18.netlify.app/",
         "img": "/food-search-site.png",
         "alt": "Food site image",
-        "text": "Project food website that was created during the Technigo Bootcamp collaboration day. We were tasked, as a team, to create a food website where we collected specific data from the Zomato API",
+        "text": "Project food website created using HTML, CSS and vanilla javascript.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-food-hippos-3",
         "tags": [
             "HTML5",
             "CSS3",
@@ -183,12 +210,13 @@
         ]
     },
     {
-        "id": 13,
+        "id": 14,
         "projectName": "CLUEDO GAME",
         "link": "https://condescending-neumann-78ee0c.netlify.app/",
         "img": "/cluedo.png",
         "alt": "Cluedo game image",
-        "text": "A fun project where we were tasked to create a Cluedo Mystery picker that randomly chooses a killer, weapon and room. These are revealed with an onClick event to reveal the mystery. Added a button that allows for the user to play again and also animations that run to show that the cards are loading",
+        "text": "A Cluedo Mystery picker that randomly chooses a killer, weapon and room. Built in HTML, CSS and vanilla javascript.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-cluedo",
         "tags": [
             "HTML5",
             "CSS3",
@@ -198,12 +226,13 @@
         ]
     },
     {
-        "id": 14,
+        "id": 15,
         "projectName": "PIZZA BOT",
         "link": "https://mystifying-lovelace-84f38f.netlify.app/",
         "img": "/pizza-bot.png",
         "alt": "Pizza bot image",
-        "text": "A fun project where we were tasked to create a Cluedo Mystery picker that randomly chooses a killer, weapon and room. These are revealed with an onClick event to reveal the mystery. Added a button that allows for the user to play again and also animations that run to show that the cards are loading",
+        "text": "A pair programming project where we built a pizza bot using HTML, CSS and vanilla javascript",
+        "githubLink": "https://github.com/ClaireCaudwell/project-pizza-bot",
         "tags": [
             "HTML5",
             "CSS3",
@@ -213,12 +242,13 @@
         ]
     },
     {
-        "id": 15,
+        "id": 16,
         "projectName": "BUSINESS SITE",
         "link": "https://nifty-beaver-9130a1.netlify.app/",
         "img": "/business-site.png",
         "alt": "Buisness site image",
-        "text": "Built a business site using HTML 5, CSS 3 and a little JavaScript ES6 where we had to have a hero image, form and accordion which was collapsable using CSS",
+        "text": "A business site built in HTML and CSS with a hero image, form and accordion which is collapsable.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-business-site",
         "tags": [
             "HTML5",
             "CSS3",
@@ -228,12 +258,13 @@
         ]
     },
     {
-        "id": 16,
+        "id": 17,
         "projectName": "NEWS SITE",
         "link": "https://condescending-ptolemy-592b72.netlify.app/",
         "img": "/news-site.png",
         "alt": "New site image",
-        "text": "First Technigo project where we were tasked to build a news site using HMTL 5 & CSS 3. Had to be responsive and cross browser compatible",
+        "text": "A basic responsive and cross browser compatible one page news site built using HMTL & CSS.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-news-site",
         "tags": [
             "HTML5",
             "CSS3",

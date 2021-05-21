@@ -17,10 +17,7 @@ export const Container = styled.section`
 
 `;
 
-export const AboutText = styled.h5`
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
-    font-size: 15px;
+export const AboutText = styled.p`
     width: 80%;
     margin: 0 0 10px 0;
     text-align: justify;

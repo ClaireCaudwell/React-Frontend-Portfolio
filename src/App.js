@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import styled from "styled-components";
+import styled, { createGlobalStyle } from "styled-components";
 
 import { Header } from "./components/Header";
 import { About } from "./components/About";
@@ -16,6 +16,7 @@ export const App = () => {
 
   return (
     <>
+      <GlobalStyle />
       <Header forwardedRef={scrollUpToRef}/>
       <MainContainer>
         <About />
@@ -29,6 +30,18 @@ export const App = () => {
     </>
   );
 };
+
+const GlobalStyle = createGlobalStyle`
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333333;  
+  font-size: 16px;
+  a {
+    text-decoration: none;
+    color: #333333;
+  }
+}
+`;
 
 const MainContainer = styled.main`
   display: flex;

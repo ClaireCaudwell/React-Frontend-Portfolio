@@ -52,7 +52,7 @@ export const IconContainer = styled.a`
     align-items: center;
     justify-content: center;
     &:hover{
-        background-color: #ffc34d;
+        background-color: #ffaa00;
         transition: 0.3s;
     }
     @media(min-width: 700px){
@@ -65,8 +65,8 @@ export const IconContainer = styled.a`
 `;
 
 export const IconImage = styled.img`
-    width: 20px;
-    height: 20px;
+    width: ${props => props.className === "github-icon" ? "25px" : "20px"};
+    height: ${props => props.className === "github-icon" ? "25px" : "20px"};
     &.footer-sm-icons{
         width: 27px;
         height: 27px;
@@ -101,10 +101,8 @@ export const NameTitle = styled.h1`
     border-radius: 2px;
     margin-bottom: 5px;
     margin-top: 0;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
     text-align: center;
-    color: #333333;
     @media(min-width: 1024px){
         font-size: 34px;
     }
@@ -114,8 +112,6 @@ export const DeveloperTitle = styled.h3`
     margin: 0px;
     font-weight: 400;
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
-    color: #333333;
     @media(min-width: 1024px){
         font-size: 27px;
     }

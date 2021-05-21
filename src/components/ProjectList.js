@@ -15,7 +15,6 @@ import {
 } from "../styled-components/ProjectList";
 
 export const ProjectList = () => {
-
     const [ visibleProjects, setVisibleProjects ] = useState(4);
     const [ showCertainButton, setShowCertainButton ] = useState(false);
     const scrollUpToRef = useRef(null);

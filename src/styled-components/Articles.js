@@ -45,12 +45,12 @@ export const ArticleDate = styled(ProjectTitle)`
 `;
 
 export const ArticleTitle = styled(ProjectTitle)`
-    color: #333333;
     margin: 10px 0 0;
 `;
 
 export const ArticleText = styled(ProjectText)`
     margin-bottom: 10px;
+    height: auto;
     &:hover{
         background-color: #f2f2f2;
         transition: 0.3s;

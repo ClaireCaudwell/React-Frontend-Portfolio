@@ -7,7 +7,6 @@ export const SkillsContainer = styled(Container)`
 
 export const MainTitle = styled.h3`
     display: inline;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 700;
     background-color: #6cb889;
@@ -34,10 +33,7 @@ export const InnerContainer = styled.div`
 `;
 
 export const TechText = styled.p`
-    font-family: 'Montserrat', sans-serif;
-    font-size: 15px;
     font-weight: 400;
-    color: #333333;
     line-height: 2;
     margin-top: 0;
 `;
