@@ -89,14 +89,12 @@ export const ProjectTitle = styled.span`
 `;
 
 export const ProjectText = styled.p`
-    text-align: justify;
     font-weight: 400;
-    margin: 7px 0 0;
     line-height: 2;
     transition: 0.3s;
     padding: 7px;
     border-radius: 20px;
-    height: 100px;
+    height: 60px;
     &:hover{
         background-color: #e6e6e6;
         transition: 0.3s;
@@ -108,6 +106,12 @@ export const ProjectText = styled.p`
     &.backend:hover{        
         background-color: #f2f2f2;
         transition: 0.3s;       
+    }
+    @media(min-width: 700px) {
+        height: 75px;
+    }
+    @media(min-width: 1024px) {
+        height: 60px;
     }
 `;
 
@@ -123,11 +127,11 @@ export const GitHubContainer = styled.a`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px 0;
     background-color: #d9d9d9;
     border-radius: 30px;
     padding: 10px 0;
     transition: 0.3s; 
+    margin: 10px 0 20px;
     &:hover{
         background-color: #cccccc;
         transition: 0.3s; 

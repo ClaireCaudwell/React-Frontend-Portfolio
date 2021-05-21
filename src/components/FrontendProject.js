@@ -9,7 +9,6 @@ import {
     ImageOverlay,
     ProjectImageTitle,
     ProjectImage,
-    // ProjectTitle,
     GitHubContainer,
     GitHubIconContainer,
     GitHubTitle,

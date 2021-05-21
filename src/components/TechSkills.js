@@ -14,7 +14,7 @@ export const TechSkills = () => {
             <MainTitle>TECH</MainTitle>
             <InnerContainer>
                 <TechText>
-                    HTML5, CSS3, <TextSpan>JavaScript ES6</TextSpan>, Flexbox, <TextSpan>React</TextSpan>, React hooks, React router,<TextSpan>Redux</TextSpan>, Styled components, Node.js, MongoDB, Mongoose, web accessiblity, <TextSpan>working with API's</TextSpan>, agile working methodology, handing errors, <TextSpan>responsive webdesign</TextSpan> and cross browser testing.
+                    HTML5, CSS3, <TextSpan>JavaScript ES6</TextSpan>, Flexbox, <TextSpan>React</TextSpan>, React hooks, React router, <TextSpan>Redux</TextSpan>, Styled components, Node.js, MongoDB, Mongoose, web accessiblity, <TextSpan>working with API's</TextSpan>, agile working methodology, handing errors, <TextSpan>responsive web-design</TextSpan> and cross browser testing.
                 </TechText>
             </InnerContainer>
         </SkillsContainer>

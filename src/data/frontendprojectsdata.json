@@ -5,7 +5,7 @@
         "link": "https://claires-digital-organiser.netlify.app/",
         "img": "/digital-organiser.png",
         "alt": "Digital organiser image",
-        "text": "A fullstack project where I built both the front and backend to create a digital organiser.",
+        "text": "A fullstack project where I built a digital organiser using React.",
         "githubLink": "https://github.com/ClaireCaudwell/Final-project-digital-organiser",
         "tags": [
             "REACT.JS",
@@ -23,7 +23,7 @@
         "link": "https://claires-emoji-memory.netlify.app/",
         "img": "/emoji-memory-game.png",
         "alt": "Emoji memory game image",
-        "text": "A simple emoji memory game built using HMTL, CSS and JS.",
+        "text": "A simple emoji memory game built using HMTL, CSS & JS.",
         "githubLink": "https://github.com/ClaireCaudwell/emoji-memory",
         "tags": [
             "HTML",
@@ -38,7 +38,7 @@
         "link": "https://epic-blackwell-4f00c6.netlify.app/",
         "img": "/todo-list.png",
         "alt": "TODO list image",
-        "text": "A useable todo app that allows for the user to add, list and remove to do's built using React and Redux.",
+        "text": "A todo app built using React and Redux.",
         "githubLink": "https://github.com/ClaireCaudwell/project-todos",
         "tags": [
             "REACT.JS",
@@ -54,7 +54,7 @@
         "link": "https://silly-wing-fdef06.netlify.app/",
         "img": "/happy-thoughts.png",
         "alt": "Happy thoughts image",
-        "text": "A twitter like site where users can post and read happy thoughts. Built in React using useState and useEffect hooks.",
+        "text": "A twitter like site to write happy thoughts built in React.",
         "githubLink": "https://github.com/ClaireCaudwell/project-happy-thoughts",
         "tags": [
             "REACT.JS",
@@ -69,7 +69,7 @@
         "link": "https://wonderful-wilson-448fcd.netlify.app/",
         "img": "/movie-releases.png",
         "alt": "Movie releases image",
-        "text": "Created a mulit-page application of the current top 20 Ryan Gosling films using the The Movie database api.",
+        "text": "A multi-page application getting data from the Movie database api.",
         "githubLink": "https://github.com/ClaireCaudwell/project-movies",
         "tags": [
             "REACT.JS",
@@ -84,7 +84,7 @@
         "link": "https://upbeat-edison-ad175c.netlify.app/",
         "img": "/auth.png",
         "alt": "Project auth image",
-        "text": "A team project where we created both a frontend and backend allowing the user to login or sign-up.",
+        "text": "A team project where we created a login or sign-up application.",
         "githubLink": "https://github.com/ClaireCaudwell/project-auth",
         "tags": [
             "REACT.JS",
@@ -103,7 +103,7 @@
         "link": "https://ecstatic-wing-fa166d.netlify.app/",
         "img": "/labrynth.png",
         "alt": "Labrynth image",
-        "text": "A pair programming project where we built an interactive text based game using React and Redux.",
+        "text": "A pair project where we built an interactive game using React.",
         "githubLink": "https://github.com/ClaireCaudwell/project-labyrinth",
         "tags": [
             "REACT.JS",
@@ -120,7 +120,7 @@
         "link": "https://flamboyant-poitras-c5efb2.netlify.app/",
         "img": "/project-survey.png",
         "alt": "Survey image",
-        "text": "Built a survey for the Beer Craft Co. in React, practising using React, the useState hook and accessiblity.",
+        "text": "Beer Craft Co. survey project built in React.",
         "githubLink": "https://github.com/ClaireCaudwell/project-survey",
         "tags": [
             "REACT.JS",
@@ -136,7 +136,7 @@
         "link": "https://vibrant-kirch-914d32.netlify.app/",
         "img": "/redux-quiz.png",
         "alt": "Redux quiz image",
-        "text": "In a team we built an quiz app using React and Redux. We used the state to render the quiz questions one at a time.",
+        "text": "A team project where we built an quiz app using React & Redux.",
         "githubLink": "https://github.com/ClaireCaudwell/project-redux-quiz",
         "tags": [
             "REACT.JS",
@@ -151,7 +151,7 @@
         "link": "https://snack.expo.io/@clairecaudwell/github.com-clairecaudwell-project-react-native-app",
         "img": "/react-native.png",
         "alt": "React native image",
-        "text": "A react native project of positive quotes where the user can click on different symbols to show a different quote",
+        "text": "A react native project of positive quotes.",
         "githubLink": "https://github.com/ClaireCaudwell/project-react-native-app",
         "tags": [
             "REACT NATIVE",
@@ -166,7 +166,7 @@
         "link": "https://objective-wing-b8f314.netlify.app/",
         "img": "/music-releases.png",
         "alt": "Music releases image",
-        "text": "A pair programming project where we created a music release site in React using data from the Spotify API.",
+        "text": "A pair project where we created a music release site in React.",
         "githubLink": "https://github.com/ClaireCaudwell/project-music-releases",
         "tags": [
             "REACT.JS",
@@ -182,7 +182,7 @@
         "link": "https://hardcore-keller-653d90.netlify.app/",
         "img": "/weather-app.png",
         "alt": "Weather app image",
-        "text": "A responsive weather app created using HTML, CSS and vanilla javascript fetching the data from the open weather API.",
+        "text": "A responsive weather app created using HTML, CSS & JavaScript.",
         "githubLink": "https://github.com/ClaireCaudwell/project-weather-app",
         "tags": [
             "HTML5",
@@ -199,7 +199,7 @@
         "link": "https://elastic-blackwell-9c9f18.netlify.app/",
         "img": "/food-search-site.png",
         "alt": "Food site image",
-        "text": "Project food website created using HTML, CSS and vanilla javascript.",
+        "text": "Team project building a food website using HTML, CSS & JavaScript.",
         "githubLink": "https://github.com/ClaireCaudwell/project-food-hippos-3",
         "tags": [
             "HTML5",
@@ -215,7 +215,7 @@
         "link": "https://condescending-neumann-78ee0c.netlify.app/",
         "img": "/cluedo.png",
         "alt": "Cluedo game image",
-        "text": "A Cluedo Mystery picker that randomly chooses a killer, weapon and room. Built in HTML, CSS and vanilla javascript.",
+        "text": "A Cluedo Mystery picker game built in HTML, CSS & JavaScript.",
         "githubLink": "https://github.com/ClaireCaudwell/project-cluedo",
         "tags": [
             "HTML5",
@@ -231,7 +231,7 @@
         "link": "https://mystifying-lovelace-84f38f.netlify.app/",
         "img": "/pizza-bot.png",
         "alt": "Pizza bot image",
-        "text": "A pair programming project where we built a pizza bot using HTML, CSS and vanilla javascript",
+        "text": "A pair project building a pizza bot using HTML, CSS & JavaScript",
         "githubLink": "https://github.com/ClaireCaudwell/project-pizza-bot",
         "tags": [
             "HTML5",
@@ -247,7 +247,7 @@
         "link": "https://nifty-beaver-9130a1.netlify.app/",
         "img": "/business-site.png",
         "alt": "Buisness site image",
-        "text": "A business site built in HTML and CSS with a hero image, form and accordion which is collapsable.",
+        "text": "A business site built using HTML & CSS.",
         "githubLink": "https://github.com/ClaireCaudwell/project-business-site",
         "tags": [
             "HTML5",
