@@ -4,18 +4,23 @@ import {
     SkillsContainer,
     MainTitle,
     InnerContainer,
+    TechTextDiv,
     TechText,
     TextSpan
 } from "../styled-components/TechSkills";
 
 export const TechSkills = () => {
+
+    const techSkills = ["HTML5", "CSS3", "JavaScriptES6", "Flexbox", "React", "React hooks", "React router", "Redux", "Styled components", "Node.js", "MongoDB", "Mongoose", "Web accessiblity", "RESTful API's", "Agile working methodology", "Error handling", "Responsive web-design", "Cross browser testing" ];
     return(
         <SkillsContainer>
             <MainTitle>TECH</MainTitle>
             <InnerContainer>
-                <TechText>
-                    HTML5, CSS3, <TextSpan>JavaScript ES6</TextSpan>, Flexbox, <TextSpan>React</TextSpan>, React hooks, React router, <TextSpan>Redux</TextSpan>, Styled components, Node.js, MongoDB, Mongoose, web accessiblity, <TextSpan>working with API's</TextSpan>, agile working methodology, handing errors, <TextSpan>responsive web-design</TextSpan> and cross browser testing.
-                </TechText>
+                {techSkills.map((skill, index) => (
+                    <TechTextDiv key={index}>
+                        <TechText>{skill}</TechText>
+                    </TechTextDiv>
+                ))}
             </InnerContainer>
         </SkillsContainer>
     );

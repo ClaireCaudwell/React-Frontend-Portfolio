@@ -34,18 +34,17 @@
     },
     {
         "id": 3,
-        "projectName": "TODO LIST",
-        "link": "https://epic-blackwell-4f00c6.netlify.app/",
-        "img": "/todo-list.png",
-        "alt": "TODO list image",
-        "text": "A todo app built using React and Redux.",
-        "githubLink": "https://github.com/ClaireCaudwell/project-todos",
+        "projectName": "MOVIE RELEASES",
+        "link": "https://wonderful-wilson-448fcd.netlify.app/",
+        "img": "/movie-releases.png",
+        "alt": "Movie releases image",
+        "text": "A multi-page application getting data from the Movie database api.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-movies",
         "tags": [
             "REACT.JS",
-            "REDUX",
-            "ACTIONS",
-            "REDUCERS",
-            "STYLED COMPONENTS"
+            "NAVIGATION",
+            "API'S",
+            "USESTATE"
         ]
     },
     {
@@ -65,17 +64,18 @@
     },
     {
         "id": 5,
-        "projectName": "MOVIE RELEASES",
-        "link": "https://wonderful-wilson-448fcd.netlify.app/",
-        "img": "/movie-releases.png",
-        "alt": "Movie releases image",
-        "text": "A multi-page application getting data from the Movie database api.",
-        "githubLink": "https://github.com/ClaireCaudwell/project-movies",
+        "projectName": "TODO LIST",
+        "link": "https://epic-blackwell-4f00c6.netlify.app/",
+        "img": "/todo-list.png",
+        "alt": "TODO list image",
+        "text": "A todo app built using React and Redux.",
+        "githubLink": "https://github.com/ClaireCaudwell/project-todos",
         "tags": [
             "REACT.JS",
-            "NAVIGATION",
-            "API'S",
-            "USESTATE"
+            "REDUX",
+            "ACTIONS",
+            "REDUCERS",
+            "STYLED COMPONENTS"
         ]
     },
     {

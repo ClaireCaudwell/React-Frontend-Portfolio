@@ -118,15 +118,14 @@ export const DeveloperTitle = styled.h3`
 `;
 
 export const ProfileImage = styled.img`
-    width: 125px;
-    height: 125px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     object-fit: contain;
     display: flex;
     align-self: flex-end;
     margin-top: -25px;
     margin-right: 10px;
-    border: 2px solid #ffb31a;
     @media(min-width: 1024px){
         width: 137px;
         height: 137px;
