@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-import profileImage from "../assets/claire-image.jpg";
+import profileImage from "../../assets/claire-image.jpg";
 import { SocialMediaIcons } from "./SocialMediaIcons";
 
 import { 
@@ -9,7 +9,7 @@ import {
     ProfileImage,
     NameTitle,
     DeveloperTitle
-} from "../styled-components/Header";
+} from "../../styled-components/Header";
 
 export const HeaderText = () => {
 

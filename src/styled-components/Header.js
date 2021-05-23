@@ -1,19 +1,20 @@
 import styled from "styled-components/macro";
-import leaves from "../assets/leaves-background.jpg";
 
 export const HeaderContainer = styled.header`
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: linear-gradient(rgba(228, 239, 224, 0.1), rgba(244, 244, 244, 1)), url(${leaves});
-    height: 50%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
+    margin: 20px 40px;
+    @media(min-width: 750px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+`;
+
+export const NameTitle = styled.h1`
+    width: 20%;
+    align-self: flex-start;
+    @media(min-width: 1024px){
+        font-size: 34px;
+    }
 `;
 
 // Social media icons
@@ -92,20 +93,6 @@ export const TextContainer = styled.div`
     display: flex;
     flex-direction: column;
     color: #000;
-`;
-
-export const NameTitle = styled.h1`
-    font-size: 30px;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.6);
-    border-radius: 2px;
-    margin-bottom: 5px;
-    margin-top: 0;
-    font-weight: 600;
-    text-align: center;
-    @media(min-width: 1024px){
-        font-size: 34px;
-    }
 `;
 
 export const DeveloperTitle = styled.h3`

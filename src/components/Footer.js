@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaReact } from "react-icons/fa";
 
-import { SocialMediaIcons } from "./SocialMediaIcons";
+import { SocialMediaIcons } from "./header/SocialMediaIcons";
 
 import { FooterContainer, FooterText } from "../styled-components/Footer";
 import { MainTitle, TextSpan } from "../styled-components/TechSkills";

@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled, { createGlobalStyle } from "styled-components";
 
-import { Header } from "./components/Header";
+import { Header } from "./components/header/Header";
 import { About } from "./components/About";
 import { TechSkills } from "./components/TechSkills";
 import { ProjectList } from "./components/ProjectList";
@@ -32,13 +32,17 @@ export const App = () => {
 };
 
 const GlobalStyle = createGlobalStyle`
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #333333;  
+  font-family: 'Quicksand', sans-serif;
+  color: #5C5E5F;  
   font-size: 16px;
   a {
     text-decoration: none;
-    color: #333333;
+    color: #5C5E5F;
   }
 }
 `;
