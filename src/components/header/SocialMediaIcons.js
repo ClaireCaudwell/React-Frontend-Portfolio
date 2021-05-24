@@ -14,21 +14,33 @@ export const SocialMediaIcons = ({ mobileMenu }) => {
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faEnvelope} size="lg" />
+            <FontAwesomeIcon 
+              icon={faEnvelope} 
+              size="lg"
+              className="icon" 
+            />
           </SocialMediaItem>
           <SocialMediaItem 
             href="https://www.linkedin.com/in/claire-caudwell-229354a5/" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedinIn} size="lg"/>
+            <FontAwesomeIcon 
+              icon={faLinkedinIn} 
+              size="lg"
+              className="icon" 
+            />
           </SocialMediaItem>
           <SocialMediaItem 
             href="https://github.com/ClaireCaudwell" 
             target="_blank" 
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faGithub} size="lg" />
+            <FontAwesomeIcon 
+              icon={faGithub} 
+              size="lg" 
+              className="icon" 
+            />
           </SocialMediaItem>
         </SocialMediaContainer>
     );
@@ -44,14 +56,24 @@ const SocialMediaContainer = styled.nav`
   border-radius: 7px;
   &.desktop-menu {
     width: 200px;
+    height: 70px;
   }
 
-  &.modal-menu {
-    width: 100%;
-  }
+  /* &.modal-menu {
+    
+  } */
 `;
 
 const SocialMediaItem = styled.a`
   padding: 10px;
+  .icon {
+    color: #089942;
+    &:hover {
+      color: #08913f;
+    } 
+  }  
+  /* .icon:hover {
+    color: #08913f;
+  } */
 `;
 

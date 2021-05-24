@@ -20,7 +20,7 @@ export const HamburgerMenu = () => {
                         <FontAwesomeIcon icon={faTimes} size="2x" />
                     </HamburgerDiv>
                     <ModalMenu>
-                        <HeaderMenu mobileMenu={isMobileMenuOpen} />
+                        <HeaderMenu mobileMenu={isMobileMenuOpen} setIsMobileMenuOpen={setIsMobileMenuOpen}/>
                     </ModalMenu>
                 </MobileMenu>                
             ) : (                
@@ -42,11 +42,11 @@ const HamburgerDiv = styled.div`
     margin-bottom: ${props => props.className === "cross" && "20px"};
     align-self: ${props => props.className === "cross" && "flex-end"};
     align-self: ${props => props.className === "hamburger" && "flex-start"};
-    display: none;
-    @media (max-width: 800px) {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    @media (min-width: 1024px) {
+        display: none;
   }
 `;
 

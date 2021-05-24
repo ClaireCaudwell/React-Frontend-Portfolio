@@ -1,45 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import styled from "styled-components/macro";
 
 import { SocialMediaIcons } from "./SocialMediaIcons";
 
-export const HeaderMenu = ({ mobileMenu }) => {
+export const HeaderMenu = ({ mobileMenu, setIsMobileMenuOpen }) => {
+
+    const updateIsMobileMenuOpen = () => {
+        setIsMobileMenuOpen(false);
+    };
+
+    const navigation = [
+        { link: '/', text: 'HOME' },
+        { link: '/webdevelopment', text: 'WEB DEVELOPMENT' },
+        { link: '/uidesign', text: 'UI DESIGN' },
+        { link: '/aboutcontact', text: 'ABOUT / CONTACT' },
+    ];
     
     return (
         <>
             <Menu className={mobileMenu ? "modal-menu" : "desktop-menu"}>
-                <MenuItem 
-                    href="home" 
-                className={mobileMenu ? "modal-item" : "desktop-item"}
-                >
-                    HOME
-                </MenuItem>
-                <MenuItem 
-                    href="development" 
-                    className={mobileMenu ? "modal-item" : "desktop-item"}
-                >
-                    DEVELOPMENT
-                </MenuItem>
-                <MenuItem 
-                    href="ui-design" 
-                    className={mobileMenu ? "modal-item" : "desktop-item"}
-                >
-                    UI DESIGN
-                </MenuItem>
-                <MenuItem 
-                    href="about-contact" 
-                className={mobileMenu ? "modal-item" : "desktop-item"}
-                >
-                    ABOUT / CONTACT
-                </MenuItem>
-                <MenuItem 
-                    href="https://clairecaudwell-art.blogspot.com/" 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className={mobileMenu ? "modal-item" : "desktop-item"}
-                >
-                    BLOG
-                </MenuItem>
+                {navigation.map((navItem, index) => (
+                    <MenuItem 
+                        key={index}
+                        to={navItem.link}
+                        className={mobileMenu ? "modal-item" : "desktop-item"}
+                        onClick={mobileMenu && updateIsMobileMenuOpen}
+                    >
+                        {navItem.text}
+                    </MenuItem>
+                ))}
             </Menu>
             <SocialMediaIcons mobileMenu={mobileMenu}/>
         </>   
@@ -69,9 +59,10 @@ const Menu = styled.nav`
     }
 `;
 
-const MenuItem = styled.a`
+const MenuItem = styled(Link)`
     transition: 0.3s;
-    font-weight: 500;
+    font-weight: 400;
+    font-size: 15px;
 
     &.desktop-item {
         margin-right: 5px;
