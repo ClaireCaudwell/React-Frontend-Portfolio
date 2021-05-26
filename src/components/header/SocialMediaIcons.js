@@ -58,22 +58,17 @@ const SocialMediaContainer = styled.nav`
     width: 200px;
     height: 70px;
   }
-
-  /* &.modal-menu {
-    
-  } */
 `;
 
 const SocialMediaItem = styled.a`
   padding: 10px;
+  transition: 0.3s;
   .icon {
     color: #089942;
     &:hover {
       color: #08913f;
+      transition: 0.3s;
     } 
-  }  
-  /* .icon:hover {
-    color: #08913f;
-  } */
+  }
 `;
 

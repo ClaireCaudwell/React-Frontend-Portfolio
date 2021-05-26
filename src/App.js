@@ -9,7 +9,7 @@ import { createGlobalStyle } from "styled-components";
 
 import { Header } from "./components/header/Header";
 import { ScrollTopArrow } from "./components/ScrollTopArrow";
-import { Home } from "./components/Home";
+import { Home } from "./pages/home/Home";
 import { WebDevelopment } from "./components/WebDeveopment";
 import { UiDesign } from "./components/UiDesign";
 import { AboutContact } from "./components/AboutContact";

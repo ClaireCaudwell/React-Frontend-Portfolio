@@ -62,7 +62,7 @@ const MenuItem = styled(Link)`
     transition: 0.3s;
     font-weight: 400;
     font-size: 15px;
-
+    transition: 0.3s;
     &.desktop-item {
         margin-right: 5px;
     }
@@ -71,5 +71,6 @@ const MenuItem = styled(Link)`
     }
     &:hover{
         color: #000;
+        transition: 0.3s;
     }
 `;
