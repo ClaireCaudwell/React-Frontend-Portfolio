@@ -16,7 +16,6 @@ export const Header = ({ forwardedRef }) => {
             CLAIRE CAUDWELL
           </HeaderTitle>
         </Link>
-          <SecondTitle>FRONTEND DEVELOPER</SecondTitle>
         </TitleContainer>
         <HamburgerMenu />
         <DesktopMenu>
@@ -47,7 +46,7 @@ const HeaderInnerWrapper = styled.div`
   @media(min-width: 1024px) {
     width: 100%;
     margin: 0 40px;
-    padding: 40px 0 0 0;
+    padding: 0;
   }
 `;
 
@@ -56,19 +55,10 @@ const TitleContainer = styled.div`
     margin: 10px 0;
   }
 `;
-const SecondTitle = styled.h4`
-  font-weight: 400;
-  letter-spacing: 2px;
-  @media(min-width: 800px) {
-    font-size: 15px;
-  }
-`;
 
 const HeaderTitle = styled.h1`
   font-size: 25px;
-  @media(min-width: 800px) {
-    /* margin: 0 0 10px; */
-  }
+  letter-spacing: 1.5px;
 `;
 
 const DesktopMenu = styled.div`

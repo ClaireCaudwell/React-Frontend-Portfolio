@@ -46,9 +46,10 @@ export const App = () => {
 };
 
 const GlobalStyle = createGlobalStyle`
-*{
+* {
   box-sizing: border-box;
   margin: 0;
+  letter-spacing: 1px;
 }
 body {
   font-family: 'Quicksand', sans-serif;

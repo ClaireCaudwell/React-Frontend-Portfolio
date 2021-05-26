@@ -37,7 +37,6 @@ export const HeaderMenu = ({ mobileMenu, setIsMobileMenuOpen }) => {
 };
 
 const Menu = styled.nav`
-    /* position: relative; */
     margin: 0 0 20px;
 
     &.desktop-menu {
@@ -68,7 +67,7 @@ const MenuItem = styled(Link)`
         margin-right: 5px;
     }
     &.modal-item {
-        margin-top: 2px;
+        margin-top: 5px;
     }
     &:hover{
         color: #000;
