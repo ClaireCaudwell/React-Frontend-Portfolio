@@ -1,8 +1,10 @@
 import React from "react";
 import styled from "styled-components/macro";
 
-import { AboutSkills } from "./main/AboutSkills";
-import { RecentProjects } from "./main/RecentProjects";
+import { AboutSkills } from "./main-components/AboutSkills";
+import { RecentProjects } from "./main-components/RecentProjects";
+import { OtherSkills } from "./main-components/OtherSkills";
+
 import { MainContainer } from "../styled-components/GlobalStylingPages";
 
 export const Home = () => {
@@ -12,6 +14,7 @@ export const Home = () => {
             <SectionDivider></SectionDivider>
             <RecentProjects />
             <SectionDivider></SectionDivider>
+            <OtherSkills />
         </MainContainer>
     );
 };

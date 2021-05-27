@@ -12,7 +12,7 @@ export const HeaderMenu = ({ mobileMenu, setIsMobileMenuOpen }) => {
 
     const navigation = [
         { link: '/', text: 'HOME' },
-        { link: '/webdevelopment', text: 'WEB DEVELOPMENT' },
+        { link: '/frontenddevelopment', text: 'FRONTEND DEVELOPMENT' },
         { link: '/uidesign', text: 'UI DESIGN' },
         { link: '/aboutcontact', text: 'ABOUT / CONTACT' },
     ];

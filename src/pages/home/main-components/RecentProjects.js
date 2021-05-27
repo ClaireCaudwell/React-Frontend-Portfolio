@@ -3,7 +3,8 @@ import styled from "styled-components/macro";
 
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
 
-import { SingleProject } from "./SingleProject";
+import { SingleProject } from "./inner-components/SingleProject";
+import { GeneralButton } from "./inner-components/GeneralButton";
 import FrontendProjectData from "../../../data/frontendprojectsdata"; 
 
 import { SectionContainer, TitleContainer, MainTitle } from "../../styled-components/GlobalStylingPages";
@@ -32,13 +33,17 @@ export const RecentProjects = () => {
                         />
                     ))}
                 </ProjectContainer>
+                <GeneralButton
+                    buttonText="See more..."
+                    url="/frontenddevelopment"
+                />
             </OuterProjectContainer>
         </SectionContainer>
     );
 };
 
 const OuterProjectContainer = styled.div`
-    @media(min-width: 1024px) {
+    @media(min-width: 1024px){
         margin: 50px;
     }
 `;

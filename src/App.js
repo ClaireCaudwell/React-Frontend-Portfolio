@@ -10,9 +10,9 @@ import { createGlobalStyle } from "styled-components";
 import { Header } from "./components/header/Header";
 import { ScrollTopArrow } from "./components/ScrollTopArrow";
 import { Home } from "./pages/home/Home";
-import { WebDevelopment } from "./components/WebDeveopment";
-import { UiDesign } from "./components/UiDesign";
-import { AboutContact } from "./components/AboutContact";
+import { FrontendDevelopment } from "./pages/frontend-development/FrontendDevelopment";
+import { UiDesign } from "./pages/ui-design/UiDesign";
+import { AboutContact } from "./pages/about-contact/AboutContact";
 
 // import { Footer } from "./components/Footer";
 
@@ -29,8 +29,8 @@ export const App = () => {
         <Route path="/" exact>
           <Home />
         </Route>
-        <Route path="/webdevelopment">
-          <WebDevelopment />
+        <Route path="/frontenddevelopment">
+          <FrontendDevelopment />
         </Route>
         <Route path="/uidesign">
           <UiDesign />
